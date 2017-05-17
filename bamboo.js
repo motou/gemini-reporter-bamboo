@@ -5,7 +5,7 @@ var inherit = require('inherit'),
     chalk = require('chalk'),
 	fs = require('fs'),
 
-    RunnerEvents = require('../gemini/lib/constants/runner-events'),
+    RunnerEvents = require('../gemini/lib/constants/events'),
 
     ICON_SUCCESS = chalk.green('\u2713'),
     ICON_FAIL = chalk.red('\u2718'),
